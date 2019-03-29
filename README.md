@@ -1,10 +1,7 @@
 # radarchart
 
 [![Project Status: Unsupported – The project has reached a stable, usable state but the author(s) have ceased all work on it. A new maintainer may be desired.](https://www.repostatus.org/badges/latest/unsupported.svg)](https://www.repostatus.org/#unsupported)
-[![Build Status](https://travis-ci.org/MangoTheCat/radarchart.svg?branch=master)](https://travis-ci.org/MangoTheCat/radarchart) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/MangoTheCat/radarchart?branch=master&svg=true)](https://ci.appveyor.com/project/MangoTheCat/radarchart) [![CRAN Status](http://www.r-pkg.org/badges/version/radarchart)](http://www.r-pkg.org/pkg/radarchart)
-[![codecov](https://codecov.io/gh/MangoTheCat/radarchart/branch/master/graph/badge.svg)](https://codecov.io/gh/MangoTheCat/radarchart)
-[![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/radarchart)](http://www.r-pkg.org/pkg/radarchart)
-[![Total CRAN downloads](http://cranlogs.r-pkg.org/badges/grand-total/radarchart)](http://www.r-pkg.org/pkg/radarchart)
+[![Build Status](https://travis-ci.org/sara-lumos/radarchart.svg?branch=master)](https://travis-ci.org/sara-lumos/radarchart)
 
 An R implementation of the radar chart from the [chart.js](http://www.chartjs.org/) javascript library.
 
@@ -12,14 +9,9 @@ Unfortunately we're not developing `radarchart` at the moment. Major CRAN fixes 
 
 ## Installation
 
-You can install from CRAN.
-```r
-install.packages("radarchart")
-```
-
 To install the latest version direct from GitHub you'll need devtools installed. Assuming you have this run:
 ```r
-devtools::install_github("MangoTheCat/radarchart")
+devtools::install_github("sara-lumos/radarchart")
 ```
 
 Or if you want to hack about with the code then clone the repository, change directory into it and run
